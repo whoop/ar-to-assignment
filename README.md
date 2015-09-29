@@ -4,23 +4,7 @@
 
 Before you get started...
 
-1.  **Install Correct Version of SQLite3**
-
-    Run the following from the command line:
-
-    ```text
-    which sqlite3
-    ```
-
-    This should either print out `/usr/bin/sqlite3` or `/usr/local/bin/sqlite3`.  We want it to print out `/usr/local/bin/sqlite3`.  If it prints out `/usr/bin/sqlite3` run the following from the command line:
-
-    ```text
-    brew link sqlite3
-    ```
-
-    Now run `which sqlite3` again and make sure it says `/usr/local/bin/sqlite3`.  If it still doesn't find a staff member to help!
-
-2.  **Run `bundle` from the application root directory**
+1.  **Run `bundle` from the application root directory**
 
     From your application root directory, run the following command to install any necessary gems:
 
